@@ -14,6 +14,8 @@ public class StudentController {
 
     @RequestMapping(value = "findOne",method = RequestMethod.GET)
     public List message(){
+
+        //这是一行注释
         ArrayList list = new ArrayList();
         Student student = new Student("boy",19,"Tom");
         Student student2 = new Student("boy",19,"Jom");
